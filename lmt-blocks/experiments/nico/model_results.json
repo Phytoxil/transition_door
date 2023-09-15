@@ -1,0 +1,215 @@
+{
+    "experiment": {
+        "nameExperiment": "DNMTP_experiment",
+        "startTime": "03/29/2023, 16:57:43.098437",
+        "endTime": "",
+        "phaseModelList": {
+            "DNMTP 1s": {
+                "namePhase": "DNMTP 1s",
+                "numberPhase": 1,
+                "percentToSucceed": 80,
+                "numberOfLastTrialToSucceed": 10,
+                "delayTrials": 1,
+                "delaySteps": 1,
+                "numberOfTrialsPerSession": null,
+                "maxSessionTime": 100,
+                "maxTimeBetweenSteps": 20
+            },
+            "DNMTP 3s": {
+                "namePhase": "DNMTP 3s",
+                "numberPhase": 1,
+                "percentToSucceed": 80,
+                "numberOfLastTrialToSucceed": 30,
+                "delayTrials": 10,
+                "delaySteps": 3,
+                "numberOfTrialsPerSession": 10,
+                "maxSessionTime": 300,
+                "maxTimeBetweenSteps": 30
+            },
+            "DNMTP 5s": {
+                "namePhase": "DNMTP 5s",
+                "numberPhase": 1,
+                "percentToSucceed": 80,
+                "numberOfLastTrialToSucceed": 30,
+                "delayTrials": 10,
+                "delaySteps": 5,
+                "numberOfTrialsPerSession": 10,
+                "maxSessionTime": 300,
+                "maxTimeBetweenSteps": 30
+            },
+            "DNMTP 7s": {
+                "namePhase": "DNMTP 7s",
+                "numberPhase": 1,
+                "percentToSucceed": 80,
+                "numberOfLastTrialToSucceed": 30,
+                "delayTrials": 10,
+                "delaySteps": 7,
+                "numberOfTrialsPerSession": 10,
+                "maxSessionTime": 300,
+                "maxTimeBetweenSteps": 30
+            },
+            "DNMTP 9s": {
+                "namePhase": "DNMTP 9s",
+                "numberPhase": 1,
+                "percentToSucceed": 80,
+                "numberOfLastTrialToSucceed": 30,
+                "delayTrials": 10,
+                "delaySteps": 9,
+                "numberOfTrialsPerSession": 10,
+                "maxSessionTime": 300,
+                "maxTimeBetweenSteps": 30
+            }
+        },
+        "gateList": [
+            "GATE TEST1",
+            "GATE TEST2"
+        ],
+        "animalDico": {
+            "001038125072": {
+                "idAnimal": "001038125072",
+                "rfid": "001038125072",
+                "currentPhaseName": "DNMTP 1s",
+                "currentScore": 0,
+                "currentSession": 2,
+                "phaseList": [
+                    {
+                        "namePhase": "DNMTP 1s",
+                        "numberPhase": 1,
+                        "percentToSucceed": 80,
+                        "numberOfLastTrialToSucceed": 10,
+                        "delayTrials": 1,
+                        "delaySteps": 1,
+                        "numberOfTrialsPerSession": null,
+                        "maxSessionTime": 100,
+                        "maxTimeBetweenSteps": 20,
+                        "startTime": "03/29/2023, 16:57:55.088951",
+                        "endTime": "",
+                        "success": 0,
+                        "score": 0,
+                        "completed": false,
+                        "sessions": [
+                            {
+                                "gate": "GATE TEST2",
+                                "currentPhaseName": "DNMTP 1s",
+                                "sessionNumber": 1,
+                                "startTime": "03/29/2023, 16:57:55.211393",
+                                "endTime": "03/29/2023, 16:58:09.523144",
+                                "isProcessing": false,
+                                "trialList": [
+                                    {
+                                        "fed": "fed2",
+                                        "delaySteps": 1,
+                                        "trialCompleted": true,
+                                        "randomSide": "left",
+                                        "step1Completed": false,
+                                        "pelletPicked": false,
+                                        "startTimeStep1": "03/29/2023, 16:57:55.327102",
+                                        "endTimeStep1": null,
+                                        "startTimeStep2": null,
+                                        "endTimeStep2": null,
+                                        "maxTimeBetweenSteps": 20,
+                                        "result": null
+                                    }
+                                ]
+                            },
+                            {
+                                "gate": "GATE TEST2",
+                                "currentPhaseName": "DNMTP 1s",
+                                "sessionNumber": 2,
+                                "startTime": "03/29/2023, 16:58:26.586639",
+                                "endTime": "03/29/2023, 16:59:35.569158",
+                                "isProcessing": false,
+                                "trialList": [
+                                    {
+                                        "fed": "fed2",
+                                        "delaySteps": 1,
+                                        "trialCompleted": true,
+                                        "randomSide": "right",
+                                        "step1Completed": true,
+                                        "pelletPicked": true,
+                                        "startTimeStep1": "03/29/2023, 16:58:26.702573",
+                                        "endTimeStep1": "03/29/2023, 16:58:33.563790",
+                                        "startTimeStep2": "03/29/2023, 16:58:34.503553",
+                                        "endTimeStep2": "03/29/2023, 16:58:38.528639",
+                                        "maxTimeBetweenSteps": 20,
+                                        "result": "success"
+                                    },
+                                    {
+                                        "fed": "fed2",
+                                        "delaySteps": 1,
+                                        "trialCompleted": true,
+                                        "randomSide": "left",
+                                        "step1Completed": true,
+                                        "pelletPicked": false,
+                                        "startTimeStep1": "03/29/2023, 16:58:38.760430",
+                                        "endTimeStep1": "03/29/2023, 16:58:44.504452",
+                                        "startTimeStep2": "03/29/2023, 16:58:45.375240",
+                                        "endTimeStep2": "03/29/2023, 16:58:46.408942",
+                                        "maxTimeBetweenSteps": 20,
+                                        "result": "error"
+                                    },
+                                    {
+                                        "fed": "fed2",
+                                        "delaySteps": 1,
+                                        "trialCompleted": true,
+                                        "randomSide": "left",
+                                        "step1Completed": true,
+                                        "pelletPicked": false,
+                                        "startTimeStep1": "03/29/2023, 16:58:46.646917",
+                                        "endTimeStep1": "03/29/2023, 16:58:47.749259",
+                                        "startTimeStep2": null,
+                                        "endTimeStep2": null,
+                                        "maxTimeBetweenSteps": 20,
+                                        "result": null
+                                    },
+                                    {
+                                        "fed": "fed2",
+                                        "delaySteps": 1,
+                                        "trialCompleted": true,
+                                        "randomSide": "left",
+                                        "step1Completed": true,
+                                        "pelletPicked": false,
+                                        "startTimeStep1": "03/29/2023, 16:58:48.867813",
+                                        "endTimeStep1": "03/29/2023, 16:58:52.960657",
+                                        "startTimeStep2": null,
+                                        "endTimeStep2": null,
+                                        "maxTimeBetweenSteps": 20,
+                                        "result": null
+                                    },
+                                    {
+                                        "fed": "fed2",
+                                        "delaySteps": 1,
+                                        "trialCompleted": true,
+                                        "randomSide": "right",
+                                        "step1Completed": true,
+                                        "pelletPicked": false,
+                                        "startTimeStep1": "03/29/2023, 16:58:53.993960",
+                                        "endTimeStep1": "03/29/2023, 16:58:57.818256",
+                                        "startTimeStep2": "03/29/2023, 16:58:58.673126",
+                                        "endTimeStep2": "03/29/2023, 16:59:19.719741",
+                                        "maxTimeBetweenSteps": 20,
+                                        "result": "Out of time between the two steps"
+                                    },
+                                    {
+                                        "fed": "fed2",
+                                        "delaySteps": 1,
+                                        "trialCompleted": true,
+                                        "randomSide": "right",
+                                        "step1Completed": false,
+                                        "pelletPicked": false,
+                                        "startTimeStep1": "03/29/2023, 16:59:20.066998",
+                                        "endTimeStep1": null,
+                                        "startTimeStep2": null,
+                                        "endTimeStep2": null,
+                                        "maxTimeBetweenSteps": 20,
+                                        "result": null
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
